@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var str="2018-2-5";
+			var re=/(\d+)(-)/g;
+			
+			str=str.replace(re,function(s,s1,s2){
+				
+				return s1+'.';
+				
+			});
+			alert(str)
+		</script>
+	</body>
+</html>
